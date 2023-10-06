@@ -10,7 +10,7 @@ df =pd.read_excel("https://github.com/sc-katu/yieldprogramming/raw/main/2023_yie
 
 # Main content
 st.title('Программирование урожая с учетом фитосанитарных работ')
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 markdown_table = """
     | Уровень защиты                  | Описание                                       |
     |-----------------------|----------------------------------------------------|
