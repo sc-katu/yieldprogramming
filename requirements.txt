@@ -1,0 +1,6 @@
+jupyter-server-proxy
+plotly
+streamlit
+requests
+openpyxl
+matplotlib
