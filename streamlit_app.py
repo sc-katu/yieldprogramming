@@ -78,7 +78,7 @@ if st.button("Рассчитать урожайность"):
         plt.ylabel('ц/га')
         plt.title('Увеличение урожая в ц/га')
         st.pyplot()
-       st.set_option('global.deprecation.showPyplotGlobalUse', False)
+        st.set_option('global.deprecation.showPyplotGlobalUse', False)
        
     
         # Create a Plotly Express bar chart
