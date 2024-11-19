@@ -10,10 +10,6 @@ df =pd.read_excel("https://github.com/sc-katu/yieldprogramming/raw/main/2023_yie
 
 # Main content
 st.title('Программирование урожая с учетом фитосанитарных работ')
-try:
-    st.set_option('global.deprecation.showPyplotGlobalUse', False)
-except streamlit.errors.StreamlitAPIException as e:
-    st.write(f"Configuration option not recognized: {e}")
 markdown_table = """
     | Уровень защиты                  | Описание                                       |
     |-----------------------|----------------------------------------------------|
