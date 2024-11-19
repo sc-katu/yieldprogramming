@@ -10,7 +10,7 @@ df =pd.read_excel("https://github.com/sc-katu/yieldprogramming/raw/main/2023_yie
 
 # Main content
 st.title('Программирование урожая с учетом фитосанитарных работ')
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 markdown_table = """
     | Уровень защиты                  | Описание                                       |
     |-----------------------|----------------------------------------------------|
@@ -78,7 +78,7 @@ if st.button("Рассчитать урожайность"):
         plt.ylabel('ц/га')
         plt.title('Увеличение урожая в ц/га')
         st.pyplot()
-        st.set_option('deprecation.showPyplotGlobalUse', False)
+        
        
     
         # Create a Plotly Express bar chart
